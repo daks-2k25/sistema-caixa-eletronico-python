@@ -37,7 +37,7 @@ while opcao != 0:
             print(f"O valor depositado {valor} ja foi adicionado")
             print(f"O seu novo saldo e de {saldo:.2f}")
             print("="*24)
-            time.sleep(2)
+            time.sleep(3)
 
         elif opcao == 3:
             print("\n" + "="*24)
@@ -61,7 +61,7 @@ while opcao != 0:
                 print("\n" + "="*24)
                 print("O seu saldo e insuficiente para realizar o seu saque!!")
                 print("="*24)
-            time.sleep(2)
+            time.sleep(3)
 
         elif opcao == 0:
             print("\n" + "="*24)
