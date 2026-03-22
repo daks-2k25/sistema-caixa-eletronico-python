@@ -28,7 +28,7 @@ while opcao != 0:
             print("\n" + "="*24)
             print(f"Seu Saldo e {saldo:.2f}")
             print("="*24)
-            time.sleep(2)
+            time.sleep(5)
 
         elif opcao == 2:
             print("\n" + "="*24)
